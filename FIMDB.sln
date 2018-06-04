@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIMDB", "FIMDB\FIMDB.csproj", "{1F180DB5-A37F-4B84-9A67-6104CA2A18D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farzin.Infrastructure", "Farzin.Infrastructure.CrossCutting\Farzin.Infrastructure.csproj", "{E9F5DEB9-5C73-43F3-A017-425D43911533}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Mock|Any CPU = Mock|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F180DB5-A37F-4B84-9A67-6104CA2A18D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F180DB5-A37F-4B84-9A67-6104CA2A18D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F180DB5-A37F-4B84-9A67-6104CA2A18D7}.Mock|Any CPU.ActiveCfg = Release|Any CPU
+		{1F180DB5-A37F-4B84-9A67-6104CA2A18D7}.Mock|Any CPU.Build.0 = Release|Any CPU
+		{1F180DB5-A37F-4B84-9A67-6104CA2A18D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F180DB5-A37F-4B84-9A67-6104CA2A18D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F5DEB9-5C73-43F3-A017-425D43911533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F5DEB9-5C73-43F3-A017-425D43911533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F5DEB9-5C73-43F3-A017-425D43911533}.Mock|Any CPU.ActiveCfg = Mock|Any CPU
+		{E9F5DEB9-5C73-43F3-A017-425D43911533}.Mock|Any CPU.Build.0 = Mock|Any CPU
+		{E9F5DEB9-5C73-43F3-A017-425D43911533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F5DEB9-5C73-43F3-A017-425D43911533}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
